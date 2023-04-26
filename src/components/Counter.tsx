@@ -16,12 +16,14 @@ const Counter = ({ count, onIncrease, onDecrease, onIncreaseBy }: CounterProps) 
   };
 
   return (
-    <div>
-      <h1>{count}</h1>
-      <input type="number" value={limit} onChange={onChange}></input>
-      <button onClick={onIncrease}>+1</button>
-      <button onClick={onDecrease}>-1</button>
-      <button onClick={() => onIncreaseBy(limit)}>{`+${limit}`}</button>
+    <div className="count_container">
+      <div>
+        <h1>{count}</h1>
+        <input type="number" value={limit} onChange={onChange}></input>
+        <button onClick={onIncrease}>+1</button>
+        <button onClick={onDecrease}>-1</button>
+        <button onClick={() => onIncreaseBy(limit)}>{`+${limit}`}</button>
+      </div>
     </div>
   );
 };

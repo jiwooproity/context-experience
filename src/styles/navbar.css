@@ -1,0 +1,24 @@
+.navbar_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.navbar_wrapper {
+    width: 1000px;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar_list {
+    display: flex;
+    gap: 0px 5px;
+}
+
+.navbar_list > a {
+    font-size: 15px;
+    line-height: 15px;
+}
