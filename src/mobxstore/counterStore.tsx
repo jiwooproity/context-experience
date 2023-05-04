@@ -1,6 +1,6 @@
 import { observable } from "mobx";
 
-type CounterTypes = {
+export type CounterTypes = {
     num: number;
     increaseAction: () => void;
     decreaseAction: () => void;
