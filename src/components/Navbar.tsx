@@ -6,8 +6,9 @@ const Navbar = () => {
         <div className="navbar_container">
             <div className="navbar_wrapper">
                 <div className="navbar_list">
-                    <Link to="/count">Counter</Link>
-                    <Link to="/todolist">ToDoList</Link>
+                    <Link to="/count">ReduxCounter</Link>
+                    <Link to="/todolist">ReduxToDoList</Link>
+                    <Link to="/mobxcount">MobXCounter</Link>
                 </div>
             </div>
         </div>
