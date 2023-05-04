@@ -1,6 +1,10 @@
-import counterStore from "./counterStore";
+import counterStore, { CounterTypes } from "./counterStore";
 
-const indexStore = () => ({
+type MainStoreReturnType = {
+    counterStore: CounterTypes
+}
+
+const indexStore = (): MainStoreReturnType => ({
     counterStore,
 })
 
