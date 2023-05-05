@@ -25,7 +25,14 @@ const MobXCounterContainer = () => {
     }
 
     return (
-        <MobXCounter counterStore={counterStore} currentCount={currentCount} onChangeState={onChangeState} stateIncreaseAction={stateIncreaseAction} onIncreaseAction={onIncreaseAction} onDecreaseAction={onDecreaseAction}/>
+        <MobXCounter
+            counterStore={counterStore}
+            currentCount={currentCount}
+            onChangeState={onChangeState}
+            stateIncreaseAction={stateIncreaseAction}
+            onIncreaseAction={onIncreaseAction}
+            onDecreaseAction={onDecreaseAction}
+        />
     )
 }
 

@@ -10,6 +10,7 @@ import Navbar from "./components/Navbar";
 
 // mobx
 import MobXCounterContainer from "./components/MobXCounterContainer";
+import MobXToDoListContainer from "./components/MobXToDoListContainer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/count" element={<CounterContainer />}/>
           <Route path="/todolist" element={<ToDoListContainer />} />
           <Route path="/mobxcount" element={<MobXCounterContainer />} />
+          <Route path="/mobxlist" element={<MobXToDoListContainer />}/>
         </Routes>
       </BrowserRouter>
     </div>
