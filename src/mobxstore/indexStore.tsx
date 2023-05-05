@@ -4,7 +4,6 @@ import todolistStore, { ToDoListTypes } from "./todolistStore";
 type MainStoreReturnType = {
     counterStore: CounterTypes;
     todolistStore: ToDoListTypes;
-}
 
 const indexStore = (): MainStoreReturnType => ({
     counterStore,
