@@ -10,6 +10,7 @@ const Navbar = () => {
                     <Link to="/todolist">ReduxToDoList</Link>
                     <Link to="/mobxcount">MobXCounter</Link>
                     <Link to="/mobxlist">MobXToDoList</Link>
+                    <Link to="/recoilcount">RecoilCounter</Link>
                 </div>
             </div>
         </div>
