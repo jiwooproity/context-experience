@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ToDoItem } from '../modules/todolist';
+import { ToDoItem } from '../redux/todolist';
 
 type ToDoListProps = {
     todolist: ToDoItem[],

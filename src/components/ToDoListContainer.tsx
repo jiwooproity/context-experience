@@ -1,7 +1,7 @@
 import React from "react"
 import { useSelector } from "react-redux"
-import { RootState } from "../modules";
-import { ToDoItem, addlist } from "../modules/todolist";
+import { RootState } from "../redux";
+import { ToDoItem, addlist } from "../redux/todolist";
 import ToDoList from "./ToDoList"
 import { useDispatch } from "react-redux";
 

@@ -2,12 +2,16 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 
-import { createStore } from "redux";
 import { Provider } from "react-redux";
 import { RecoilRoot } from "recoil";
-import rootReducer from "./modules";
 
-const store = createStore(rootReducer);
+// original redux store
+// import { createStore } from "redux";
+// import rootReducer from "./redux";
+// const originalStore = createStore(rootReducer);
+
+// redux toolkit store
+import store from "./reduxToolkit";
 
 const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement);
 root.render(
