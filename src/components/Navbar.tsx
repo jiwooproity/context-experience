@@ -6,7 +6,8 @@ const Navbar = () => {
         <div className="navbar_container">
             <div className="navbar_wrapper">
                 <div className="navbar_list">
-                    <Link to="/count">ReduxCounter</Link>
+                    <Link to="/count">{`ReduxCounter ( deleted )`}</Link>
+                    <Link to="/reduxtoolkitcount">ReduxToolkitCounter</Link>
                     <Link to="/todolist">ReduxToDoList</Link>
                     <Link to="/mobxcount">MobXCounter</Link>
                     <Link to="/mobxlist">MobXToDoList</Link>
