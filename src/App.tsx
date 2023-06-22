@@ -17,6 +17,7 @@ import MobXToDoListContainer from "./components/MobXToDoListContainer";
 
 // recoil
 import RecoilCounterContainer from "./components/RecoilCounterContainer";
+import RecoilToDoListContainer from "./components/RecoilToDoListContainer";
 
 function App() {
   return (
@@ -24,12 +25,16 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/count" element={<CounterContainer />}/>
-          <Route path="/reduxtoolkitcount" element={<ReduxToolkitCounterContainer />}/>
+          <Route path="/count" element={<CounterContainer />} />
+          <Route
+            path="/reduxtoolkitcount"
+            element={<ReduxToolkitCounterContainer />}
+          />
           <Route path="/todolist" element={<ToDoListContainer />} />
           <Route path="/mobxcount" element={<MobXCounterContainer />} />
-          <Route path="/mobxlist" element={<MobXToDoListContainer />}/>
-          <Route path="/recoilcount" element={<RecoilCounterContainer />}/>
+          <Route path="/mobxlist" element={<MobXToDoListContainer />} />
+          <Route path="/recoilcount" element={<RecoilCounterContainer />} />
+          <Route path="/recoillist" element={<RecoilToDoListContainer />} />
         </Routes>
       </BrowserRouter>
     </div>
